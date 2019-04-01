@@ -17,17 +17,11 @@ https://imgur.com/a/vUY52Ql
 /transaction/
 	Endpoints that return data around transaction information such as date, time, transaction type, amount, etc.
   
-  List amount of customers that spent over $500 (Static API)
+  List amount of customers that spent over $500 (Static API)</br>
+  API: http://0.0.0.0:5000/tranamount
   •	For a static API with information on the number of customers that spent over $500 in 2014-2016 by transaction date.
   
-  <b>Sample Output</b></br>
+  
   List of transaction data per transaction ID (Dynamic API)
-
-API: http://127.0.0.1:5000/transaction/<id></br>
+API: http://0.0.0.0:5000/transaction/<id></br>
 •	A dynamic API with all Dillard’s transaction information that took place from 2014-2016 for any specific Dillard’s transactions ID requested. You may replace the transaction ID <id> with any you desire to view specific information.
-
-<b>Sample Output:</b></br>
-http://127.0.0.1:5000/transaction/215663021
-
-
-
